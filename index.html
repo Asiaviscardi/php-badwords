@@ -18,15 +18,24 @@
 
     <h1>php bad words</h1>
 
-    <form action="">
+    <div class="container">
 
-        <input type="text" name="" id="" placeholder="Inserisci qui il tuo paragrafo">
+        <form action="richiesta.php" method="POST">
+    
+            <label for="paragrafo">Paragrafo:</label>
+    
+            <textarea name="paragrafo" id="paragrafo" cols="30" rows="10"></textarea>
+    
+            <label for="parola">Parola da censurare:</label>
+    
+            <input type="text" name="parola" id="parola">
+    
+            <input type="submit" value="Invia">
+    
+        </form>
+        
+    </div>
 
-        <input type="text" name="" id="" placeholder="Inserisci qui la tua parola">
-
-        <input type="button" value="Invia">
-
-    </form>
     
 </body>
 
