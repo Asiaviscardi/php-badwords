@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 300px;
+    margin-right: 20px;
+    padding: 10px;
+}
