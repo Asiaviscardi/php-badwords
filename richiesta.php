@@ -8,6 +8,8 @@ $parolaDaCensurare = $_POST["parola"];
 
 echo 'la tua parola censurata è' .$parolaDaCensurare;
 
+echo 'la lunghezza del tuo paragrafo è di' .strlen($paragrafo) . 'caratteri';
+
 ?>
 
 <!DOCTYPE html>
