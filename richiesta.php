@@ -2,19 +2,17 @@
 
 $paragrafo = $_POST['paragrafo'];
 
-echo 'il tuo paragrafo è' .$paragrafo;
+echo ' il tuo paragrafo è: ' .$paragrafo;
 
 $parolaDaCensurare = $_POST["parola"];
 
-echo 'la tua parola censurata è' .$parolaDaCensurare;
+echo ' la tua parola censurata è: ' .$parolaDaCensurare;
 
-echo 'la lunghezza del tuo paragrafo è di' .strlen($paragrafo) . 'caratteri';
+echo ' la lunghezza del tuo paragrafo è di: ' .strlen($paragrafo) . ' caratteri ';
 
-$paragrafoCensurato = str_replace($parolaDaCensurare, '***', $paragrafo);
+$paragrafoCensurato = str_replace($parolaDaCensurare, ' *** ', $paragrafo);
 
-echo 'paragrafo censurato' .$paragrafoCensurato;
-
-
+echo ' il paragrafo censurato è: ' .$paragrafoCensurato;
 
 ?>
 
